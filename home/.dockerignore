@@ -1,0 +1,13 @@
+# Node modules
+node_modules
+
+# git ignore file
+.gitignore
+
+# Build Folder
+build
+
+# Docker Config
+.dockerignore
+Dockerfile
+Dockerfile.prod

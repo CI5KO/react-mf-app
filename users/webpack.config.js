@@ -43,10 +43,10 @@ module.exports = (_, argv) => ({
     new ModuleFederationPlugin({
       name: "users",
       filename: "remoteEntry.js",
-      remotes: {
-        homeComps: "home@http://localhost:3001/remoteEntry.js",
+      remotes: {},
+      exposes: {
+        "./Register": "./src/sections/registerForm.tsx",
       },
-      exposes: {},
       shared: {
         ...deps,
         react: {

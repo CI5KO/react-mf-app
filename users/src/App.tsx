@@ -2,12 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.scss";
 
-// @ts-ignore
-import Header from "homeComps/Header";
+import RegisterForm from "./sections/registerForm";
 
-const App = () => (
-  <div>
-    <Header />
-  </div>
-);
+const App = () => <RegisterForm />;
 ReactDOM.render(<App />, document.getElementById("app"));

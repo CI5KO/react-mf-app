@@ -56,3 +56,13 @@ project folder
 docker compose up -d
 
 ```
+
+## Dev Path
+
+For developer path, we are using a temp path for a bug on the Home Project
+
+```bash
+
+http://localhost:3001/dist/
+
+```

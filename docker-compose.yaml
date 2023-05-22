@@ -3,11 +3,11 @@ version: "3.1"
 services:
   home:
     container_name: home
-    build: ./home
+    build: ./src/home
     ports:
       - "3001:3001"
   users:
     container_name: users
-    build: ./users
+    build: ./src/users
     ports:
       - "3002:3002"

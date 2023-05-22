@@ -1,13 +1,18 @@
-version: "3.1"
+version: '3.1'
 
 services:
-  home:
-    container_name: home
-    build: ./src/home
+  Home:
+    container_name: Home
+    build: ./src/Home
     ports:
-      - "3001:3001"
-  users:
-    container_name: users
-    build: ./src/users
+      - '3001:3001'
+  Users-Front:
+    container_name: Users-Front
+    build: ./src/Users-Front
     ports:
-      - "3002:3002"
+      - '3002:3002'
+  Users-Back:
+    container_name: Users-Back
+    build: ./src/Users-Back
+    ports:
+      - '4002:4002'

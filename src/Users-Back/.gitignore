@@ -1,0 +1,15 @@
+# Node Modules
+/node_modules
+
+# Build Folder
+/build
+
+# Env
+.env
+.env.example
+
+# Prettier
+.prettierrc.json
+
+# others
+dist
